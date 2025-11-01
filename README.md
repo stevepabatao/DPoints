@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# DPoints
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+DPoints is a modern rewards and loyalty app built with **Expo** and **React Native**. Users can earn points, redeem rewards via QR codes, and track their progress in a visually appealing interface.
 
-## Get started
+## Features
 
-1. Install dependencies
+* View and redeem rewards
+* Earn points via QR code scanning
+* Animated, interactive reward cards
+* Gradient and image-based reward card backgrounds
+* Supports both iOS and Android
 
-   ```bash
-   npm install
-   ```
+## Screenshots
 
-2. Start the app
+*Add screenshots here to showcase your app UI.*
 
-   ```bash
-   npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
+### Prerequisites
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Node.js >= 18.x
+* npm or yarn
+* Expo CLI (`npm install -g expo-cli`)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Steps
 
-## Get a fresh project
+1. **Clone the repository**
 
-When you're ready, run:
+```bash
+git clone https://github.com/stevepabatao/DPoints.git
+cd DPoints
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Start the Expo development server**
+
+```bash
+npx expo start
+```
+
+4. **Run on your device or simulator**
+
+* **Android:** Use Android Studio emulator or Expo Go app
+* **iOS:** Use Xcode simulator or Expo Go app
+* **Web:** Open the web preview in your browser
+
+### Reset Project (Optional)
+
+If you want to start fresh:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This moves the starter code to `app-example` and creates a blank `app` directory for new development.
 
-## Learn more
+## Learn More
 
-To learn more about developing your project with Expo, look at the following resources:
+* [Expo Documentation](https://docs.expo.dev)
+* [React Native Documentation](https://reactnative.dev/docs/getting-started)
+* [File-based Routing in Expo](https://docs.expo.dev/routing/file-based-routing/)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Contributing
 
-## Join the community
+Feel free to fork, submit issues, or make pull requests to improve the app.
 
-Join our community of developers creating universal apps.
+## License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is open-source. Use and modify freely.
